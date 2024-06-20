@@ -95,8 +95,7 @@
   }
 
   .plan {
-    width: 600px;
-    height: 300px;
+    width: 100%;
     margin-top: 25px;
     padding-right: 50px;
   }
