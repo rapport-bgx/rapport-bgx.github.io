@@ -8,13 +8,12 @@ html, body {
     margin: auto;
     background: white;
     padding: 20px;
-    top: 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 .container2 {
-    min-height: calc(100vh - 700px); /* 60px représente la hauteur du footer, ajustez-la selon votre mise en page */
+    min-height: calc(100vh - 500px); /* 60px représente la hauteur du footer, ajustez-la selon votre mise en page */
   }
 
 h1, h2 {
