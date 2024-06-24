@@ -2,32 +2,25 @@
     border-right: 1px solid orangered;
     border-bottom: 1px solid orangered;
     padding: 50px;
-    width: 50%;
+    width: 55%;
     margin: auto;
-    margin-top: 100px;
     margin-bottom: 80px;
   }
   
+  .container2 {
+    min-height: calc(100vh - auto); /* 60px représente la hauteur du footer, ajustez-la selon votre mise en page */
+  }
+
   .carre-contenu h2 {
     margin-top: 30px;
   }
   
   .carre-contenu ul {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   
   .carre-contenu + div {
     text-align: center;
-  }
-  
-  .a-propos-main {
-    margin: auto;
-  }
-
-  
-  
-  .a-propos-main {
-    margin: auto;
   }
   
   table {
@@ -64,10 +57,6 @@
   table, h3 {
       font-family: "Jacquard 12", system-ui;
       font-size: 40px;
-  }
-  
-  p:active {
-    background-color: black;
   }
 
   .css:hover {
