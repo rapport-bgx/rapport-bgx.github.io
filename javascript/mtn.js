@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const now = new Date();
         const hours = now.getHours();
 
-        if (hours >= 9 && hours < 22) {
+        if (hours >= 9 && hours < 23) {
             window.location.href = 'load-screen.html';
         } else {
             mainContent.style.opacity = 1;
