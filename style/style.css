@@ -58,7 +58,6 @@ html, body {
     margin-left: 30px;
     border-radius: 10px;
     width: 400px;
-    height: 100px;
     color: black;
   }
   
@@ -72,7 +71,6 @@ html, body {
     margin-left: 30px;
     display: flex;
     flex-direction: column;
-    height: 100px;
     width: 420px;
   }
   
@@ -95,7 +93,6 @@ html, body {
   header nav {
   position: fixed;
   width: 100%;
-  height: 120px;
   transition: all 0.4s ease-out;
   }
   
@@ -152,7 +149,7 @@ html, body {
   nav > ul > li {
   background-color: black;
   position: relative;
-  height: 100%;
+  width: 100%;
   flex: 1;
   }
   
