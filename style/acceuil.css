@@ -78,7 +78,7 @@ header nav .list-menu .item {
 /* footer */
 
 footer {
-    position: relative;
+    position: absolute;
     display: grid;
     width: 100%;
     top: auto;
@@ -238,8 +238,19 @@ color: white;
     margin-left: 7px;
     display: inline-block;
   }
+
+  .menu-deroulant2 > a:after{
+    font-size: 15px;
+    margin-left: 7px;
+    display: inline-block;
+  }
   
   .menu-deroulant:hover > a:after{
+    animation: rotationFleche 0.2s linear forwards;
+    color: orangered;
+  }
+
+  .menu-deroulant2:hover > a:after{
     animation: rotationFleche 0.2s linear forwards;
     color: orangered;
   }
@@ -267,6 +278,11 @@ color: white;
   }
   
   .menu-deroulant:hover > .sous-menu {
+    animation: apparitionSousMenu 1s forwards;
+    color: orangered;
+  }
+    
+  .menu-deroulant2:hover > .sous-menu {
     animation: apparitionSousMenu 1s forwards;
     color: orangered;
   }
