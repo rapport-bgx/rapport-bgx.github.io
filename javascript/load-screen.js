@@ -137,5 +137,5 @@ draw()
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
         window.location.href = 'acceuil.html';
-    }, 10000); // Attend 10 secondes
+    }, 5000); // Attend 10 secondes
 });
