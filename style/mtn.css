@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 
-.maintenance-container, .alternate-container {
+.maintenance-container {
     text-align: center;
     background-color: #444;
     padding: 20px;
@@ -22,7 +22,7 @@ body {
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
-.maintenance-image, .alternate-image {
+.maintenance-image {
     width: 100%;
     max-width: 200px;
     margin-bottom: 20px;
