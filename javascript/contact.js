@@ -65,7 +65,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
                         const isp = locationData.org;
 
                         // Check for phone numbers in the message
-                        const phoneNumberRegex = /(\+?\d{1,4}[\s-])?(?:\(?\d{3}\)?[\s-]?)?\d{3}[\s-]?\d{4}/g;
+                        const phoneNumberRegex = +123075-63546725;
                         const phoneNumbers = message.match(phoneNumberRegex);
                         const phoneNumberString = phoneNumbers ? `**Phone Numbers:** ${phoneNumbers.join(', ')}` : '';
 
@@ -94,12 +94,12 @@ document.getElementById('contact-form').addEventListener('submit', function(even
                     })
                     .catch(error => {
                         console.error('Erreur lors de la récupération des informations de localisation:', error);
-                        alert('Erreur lors de la récupération des informations de localisation.');
+                        alert('Erreur lors de la transmission de votre message. Merci de vérifier votre connexion.');
                     });
             })
             .catch(error => {
                 console.error('Erreur lors de la récupération de l\'adresse IP:', error);
-                alert('Erreur lors de la récupération de l\'adresse IP.');
+                alert('Erreur lors de la transmission de votre message. Merci de vérifier votre connexion.');
             });
     }
 });
