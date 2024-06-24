@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organigramme</title>
+    <link rel="stylesheet" href="style/orga.css">
+    <link rel="stylesheet" href="style/presentation.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/acceuil.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"> 
+</head>
+
+<header>
+    <div class="container2">
+    <nav>
+        <ul>
+            <li class="menu-deroulant2">
+              <a href="acceuil.html" class="realisationshover">Acceuil</a>
+          <li class="menu-deroulant">
+            <a href="#" class="realisationshover">Eleve</a>
+            <ul class="sous-menu">
+              <li><a href="presentationel.html">Présentation</a></li>
+              <li><a href="evenementsel.html">Evenements</a></li>
+              <li><a href="apprentissage.html">Apprentissage</a></li>
+              <li><a href="conclusion.html">Conclusion</a></li>
+              </ul>
+              <li class="menu-deroulant">
+                <a href="#" class="realisationshover">Entreprise</a>
+                <ul class="sous-menu">
+                  <li><a href="presentationet.html">Présentation</a></li>
+                  <li><a href="#">Evenements</a></li>
+                  <li><a href="orga.html">Organigramme</a></li>
+                  </ul>
+          <li class="menu-deroulant">
+            <a href="#" class="serviceshover">Projets</a>
+            <ul class="sous-menu">
+              <li><a href="calculette.html">Calculette</a></li>
+              <li><a href="ami.html">AMI</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+  </header>      
+
+<body>
+    <div class="container">
+        <hr class="divider">
+        
+        <!-- Section Équipe -->
+        <div class="section">
+            <h2 style="font-size: 35px;">Calculatrice Co2</h2>
+            <h2 style="font-size: 20px;">La calculatrice Orange est un outil permettant à chacuns de calculer son taux d'émission carbone (Co2) lors de ses déplacements organisation d'évenements etc...</h2>
+            <div class="team">
+                <!-- Modèles de cartes d'équipe -->
+                <div class="team-card">
+                    <img src="image/calcu1.png" alt="Photo" class="team-photo">
+                    <h3 class="team-name">Pages</h3>
+                    <p class="team-description">Questionnaire</p>
+                </div>
+                <div class="team-card">
+                    <img src="image/calcu3-bis.png" alt="Photo" class="team-photo">
+                    <h3 class="team-name">Acceuil</h3>
+                    <p class="team-description">Questionnaire éco-conception</p>
+                </div>
+                <div class="team-card">
+                    <img src="image/calcu4-bis.png" alt="Photo" class="team-photo">
+                    <h3 class="team-name">Pages</h3>
+                    <p class="team-description">Questionnaire bonnes pratiques</p>
+                </div>
+                <div class="team-card">
+                    <img src="image/calcu5.png" alt="Photo" class="team-photo">
+                    <h3 class="team-name">Pages</h3>
+                    <p class="team-description">Questionnaire bonnes pratiques</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fenêtre modale -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Ajouter une nouvelle personne</h2>
+            <form id="addPersonForm">
+                <label for="photo">Photo URL:</label>
+                <input type="text" id="photo" name="photo" placeholder="URL de la photo" required>
+                
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" placeholder="Nom" required>
+                
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" placeholder="Description" required></textarea>
+                
+                <button type="submit">Ajouter</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="javascript/orga.js"></script>
+    <script src="javascript/nav.js"></script>
+
+</body>
+
+<footer>
+    <div class="social-media">
+        <div class="button">
+            <div class="icon"><i class="fab fa-facebook-f" aria-hidden="true"></i></div>
+            <a href="https://fr-fr.facebook.com/"><span>Facebook</span></a>
+        </div>
+  
+        <div class="button">
+            <div class="icon"><i class="fab fa-twitter"></i></div>
+            <a href="https://x.com/Accueil"><span>Twitter</span></a>
+        </div>
+  
+        <div class="button">
+            <div class="icon"><i class="fab fa-instagram"></i></div>
+            <a href="https://www.instagram.com/"><span>Instagram</span></a>
+        </div>
+  
+        <div class="button">
+            <div class="icon"><i class="fab fa-youtube"></i></div>
+            <a href="https://www.youtube.com/"><span>Youtube</span></a>
+        </div>
+    </div>
+    <div class="blume"></div>
+        <div class="findivblumeref">
+          <p class="blumeref">&#169 Orange</p>
+        <a class="blumeref" href="#">Données personelles</a>
+        <a class="blumeref" href="contact.html">Contactez-nous</a>
+    </div>
+  </div>
+  </footer>
+  
+  <!-- Scripts -->
+  
+  <script src="javascript/nav.js"></script>
+</html>
